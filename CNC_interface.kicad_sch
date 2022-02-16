@@ -2544,7 +2544,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 49.53 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c464a80-ff5d-4b0d-bc26-7c85ac545cdf)
-    (property "Reference" "J4" (id 0) (at 52.07 60.9599 0)
+    (property "Reference" "J17" (id 0) (at 52.07 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08" (id 1) (at 52.07 63.4999 0)
@@ -2585,7 +2585,7 @@
   (symbol (lib_id "power:GND") (at 39.37 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 63a7cf3f-abce-42fb-b778-80e472f2ad88)
-    (property "Reference" "#PWR?" (id 0) (at 33.02 30.48 0)
+    (property "Reference" "#PWR0109" (id 0) (at 33.02 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 35.56 30.4799 90)
@@ -2619,7 +2619,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 49.53 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ef7ca08-78ca-4fb4-8425-fbabd0d4a909)
-    (property "Reference" "J17" (id 0) (at 52.07 33.0199 0)
+    (property "Reference" "J18" (id 0) (at 52.07 33.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x10" (id 1) (at 52.07 35.5599 0)
@@ -2742,6 +2742,9 @@
     (path "/00000000-0000-0000-0000-00006209dfad"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
+    (path "/63a7cf3f-abce-42fb-b778-80e472f2ad88"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000620756d9"
       (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
@@ -2790,9 +2793,6 @@
     (path "/5cfeed53-bc65-41fc-a3af-08b8f9858e41"
       (reference "#PWR0136") (unit 1) (value "+12V") (footprint "")
     )
-    (path "/63a7cf3f-abce-42fb-b778-80e472f2ad88"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062089e0f"
       (reference "C1") (unit 1) (value "CP") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
@@ -2813,9 +2813,6 @@
     )
     (path "/00000000-0000-0000-0000-0000620649e9"
       (reference "J3") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
-    )
-    (path "/5c464a80-ff5d-4b0d-bc26-7c85ac545cdf"
-      (reference "J4") (unit 1) (value "Conn_01x08") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006208728f"
       (reference "J5") (unit 1) (value "Screw_Terminal_01x02") (footprint "CNC_interface:TerminalBlock_Phoenix_MKDSP-1,5-2-5.08_1x02_P5.08mm")
@@ -2850,8 +2847,11 @@
     (path "/00000000-0000-0000-0000-000062066953"
       (reference "J16") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
     )
+    (path "/5c464a80-ff5d-4b0d-bc26-7c85ac545cdf"
+      (reference "J17") (unit 1) (value "Conn_01x08") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Horizontal")
+    )
     (path "/8ef7ca08-78ca-4fb4-8425-fbabd0d4a909"
-      (reference "J17") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal")
+      (reference "J18") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062097f6a"
       (reference "L1") (unit 1) (value "L") (footprint "Inductor_SMD:L_TDK_SLF10145")
