@@ -3082,10 +3082,10 @@
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/0b74e936-0859-43e8-92e6-70d6886113e7"
-      (reference "C1") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/5d556b72-1d56-4ef9-801c-f56aab720ae4"
-      (reference "C2") (unit 1) (value "220uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+      (reference "C2") (unit 1) (value "1000uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/93b36e73-379e-4f68-bf56-ed3063cf9415"
       (reference "C3") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
@@ -3097,19 +3097,19 @@
       (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/38e766e3-8f0d-435f-85a7-b841375c9d0e"
-      (reference "C6") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C6") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/7f0debda-8e70-4f6a-ab19-a22319396f56"
-      (reference "C7") (unit 1) (value "220uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+      (reference "C7") (unit 1) (value "1000uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/00000000-0000-0000-0000-000062073139"
       (reference "D1") (unit 1) (value "1N4001") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/e9948907-2363-4e79-a871-bed9fc708995"
-      (reference "D2") (unit 1) (value "D") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
+      (reference "D2") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/7b5afcba-dd6f-4e98-9096-c351a002b7c2"
-      (reference "D3") (unit 1) (value "D") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
+      (reference "D3") (unit 1) (value "1N5822") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062062d4c"
       (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
@@ -3166,16 +3166,10 @@
       (reference "J19") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/9264dc6e-5915-4d3e-9e3c-68b480f21536"
-      (reference "L1") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
-    )
-    (path "/8b7d305c-caee-4338-94fc-4790d784af7f/8ba9028b-b4dd-48dc-aa75-2b6574106363"
-      (reference "L2") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
-    )
-    (path "/8b7d305c-caee-4338-94fc-4790d784af7f/295ab263-c877-4515-bbbf-3c449760e0d6"
-      (reference "L3") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
+      (reference "L1") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/6ef44ea8-e69c-45bc-be4d-863f0548e8f5"
-      (reference "L4") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
+      (reference "L4") (unit 1) (value "100uF") (footprint "Inductor_SMD:L_TDK_SLF10145")
     )
     (path "/00000000-0000-0000-0000-000062070cd9"
       (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
@@ -3187,10 +3181,10 @@
       (reference "R2") (unit 1) (value "100k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/0e5d71c4-dc04-47da-990d-66c8f8e2e38b"
-      (reference "U1") (unit 1) (value "LM2596S-5") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+      (reference "U1") (unit 1) (value "LM2576-05") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/5de2ac72-9f70-4078-8d15-4d73b7d95def"
-      (reference "U2") (unit 1) (value "LM2596S-12") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+      (reference "U2") (unit 1) (value "LM2576-12") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
   )
 )
