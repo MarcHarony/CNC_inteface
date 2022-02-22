@@ -3082,7 +3082,7 @@
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/0b74e936-0859-43e8-92e6-70d6886113e7"
-      (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/5d556b72-1d56-4ef9-801c-f56aab720ae4"
       (reference "C2") (unit 1) (value "1000uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
@@ -3097,10 +3097,10 @@
       (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/38e766e3-8f0d-435f-85a7-b841375c9d0e"
-      (reference "C6") (unit 1) (value "470uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C6") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/7f0debda-8e70-4f6a-ab19-a22319396f56"
-      (reference "C7") (unit 1) (value "220uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+      (reference "C7") (unit 1) (value "1000µF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
     )
     (path "/00000000-0000-0000-0000-000062073139"
       (reference "D1") (unit 1) (value "1N4001") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
@@ -3166,10 +3166,10 @@
       (reference "J19") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/9264dc6e-5915-4d3e-9e3c-68b480f21536"
-      (reference "L1") (unit 1) (value "100µH") (footprint "Inductor_SMD:L_TDK_SLF10145")
+      (reference "L1") (unit 1) (value "150µF") (footprint "Inductor_SMD:L_TDK_SLF10145")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/6ef44ea8-e69c-45bc-be4d-863f0548e8f5"
-      (reference "L4") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_TDK_SLF10145")
+      (reference "L4") (unit 1) (value "220µH") (footprint "Inductor_SMD:L_TDK_SLF10145")
     )
     (path "/00000000-0000-0000-0000-000062070cd9"
       (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
