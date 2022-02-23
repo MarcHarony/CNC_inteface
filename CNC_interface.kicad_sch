@@ -2389,13 +2389,13 @@
     (pin "1" (uuid 2694ae2b-13c0-4885-baf0-f6e92e89fd04))
   )
 
-  (symbol (lib_id "power:+24V") (at 148.59 82.55 90) (unit 1)
+  (symbol (lib_id "power:+12V") (at 148.59 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 31a71321-d9f9-464f-8dc0-ee065f4e0170)
-    (property "Reference" "#PWR0132" (id 0) (at 152.4 82.55 0)
+    (uuid 306356ce-3d3d-4ee4-ab88-99af3cfd3700)
+    (property "Reference" "#PWR?" (id 0) (at 152.4 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+24V" (id 1) (at 144.78 82.5499 90)
+    (property "Value" "+12V" (id 1) (at 144.78 82.5499 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 148.59 82.55 0)
@@ -2404,7 +2404,7 @@
     (property "Datasheet" "" (id 3) (at 148.59 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 428724bc-ef94-49fe-ae4a-51a23b6ae22e))
+    (pin "1" (uuid e019fb07-577a-4397-8235-2b3ea87f0b90))
   )
 
   (symbol (lib_id "power:GND") (at 139.7 96.52 270) (unit 1)
@@ -2439,24 +2439,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 093c16b6-b6b4-4763-b7fa-aea46694cde5))
-  )
-
-  (symbol (lib_id "power:+24V") (at 148.59 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 46f73811-9440-4704-af14-f571f794e5bd)
-    (property "Reference" "#PWR0136" (id 0) (at 152.4 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+24V" (id 1) (at 144.78 50.7999 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 148.59 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 148.59 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7d4d15ac-e595-4abd-9476-105c454ee160))
   )
 
   (symbol (lib_id "power:GND") (at 248.92 69.85 90) (unit 1)
@@ -2645,6 +2627,24 @@
     (pin "2" (uuid 399a068b-0be7-4682-a2e4-ce52a0188493))
   )
 
+  (symbol (lib_id "power:+12V") (at 148.59 50.8 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 998f8fc2-f876-46d4-9582-c9487fcb3793)
+    (property "Reference" "#PWR?" (id 0) (at 152.4 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (id 1) (at 144.78 50.7999 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 148.59 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 148.59 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e87bc027-9a8a-4dcc-95c6-afc9b08f755f))
+  )
+
   (symbol (lib_id "power:+5V") (at 148.59 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9cc3fedb-e7e4-4d83-84e3-7ed5b13ae7b5)
@@ -2717,13 +2717,13 @@
     (pin "S1" (uuid b30b0f89-aa4f-4480-90bd-1eefefaddb66))
   )
 
-  (symbol (lib_id "power:+24V") (at 148.59 114.3 90) (unit 1)
+  (symbol (lib_id "power:+12V") (at 148.59 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid c0c1d321-59fb-4e73-a82d-6bc5798c0d11)
-    (property "Reference" "#PWR0133" (id 0) (at 152.4 114.3 0)
+    (uuid ba652f01-eff8-486a-ad05-0601e550fdde)
+    (property "Reference" "#PWR?" (id 0) (at 152.4 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+24V" (id 1) (at 144.78 114.2999 90)
+    (property "Value" "+12V" (id 1) (at 144.78 114.2999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 148.59 114.3 0)
@@ -2732,7 +2732,7 @@
     (property "Datasheet" "" (id 3) (at 148.59 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d7babf8-17ba-4512-9ec4-bb2b5c53a9f0))
+    (pin "1" (uuid bba99b50-bd4b-4acd-84c1-d31ce3b5ed12))
   )
 
   (symbol (lib_id "power:+5V") (at 248.92 91.44 270) (unit 1)
@@ -3033,20 +3033,11 @@
     (path "/e42d9733-e287-4e19-b1d1-7f9d7fbba791"
       (reference "#PWR0131") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/31a71321-d9f9-464f-8dc0-ee065f4e0170"
-      (reference "#PWR0132") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/c0c1d321-59fb-4e73-a82d-6bc5798c0d11"
-      (reference "#PWR0133") (unit 1) (value "+24V") (footprint "")
-    )
     (path "/9cc3fedb-e7e4-4d83-84e3-7ed5b13ae7b5"
       (reference "#PWR0134") (unit 1) (value "+5V") (footprint "")
     )
     (path "/c7f23ad2-3396-464f-a213-00fd476aa474"
       (reference "#PWR0135") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/46f73811-9440-4704-af14-f571f794e5bd"
-      (reference "#PWR0136") (unit 1) (value "+24V") (footprint "")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/2ac1aff8-0f18-45cf-83e1-f1a00fd60e7c"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
@@ -3081,11 +3072,20 @@
     (path "/8d57021b-17d7-425a-b48c-37252c14cee8"
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
+    (path "/306356ce-3d3d-4ee4-ab88-99af3cfd3700"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/998f8fc2-f876-46d4-9582-c9487fcb3793"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/ba652f01-eff8-486a-ad05-0601e550fdde"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/0b74e936-0859-43e8-92e6-70d6886113e7"
-      (reference "C1") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C1") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/5d556b72-1d56-4ef9-801c-f56aab720ae4"
-      (reference "C2") (unit 1) (value "1000uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+      (reference "C2") (unit 1) (value "1000uF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/93b36e73-379e-4f68-bf56-ed3063cf9415"
       (reference "C3") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
@@ -3097,10 +3097,10 @@
       (reference "C5") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/38e766e3-8f0d-435f-85a7-b841375c9d0e"
-      (reference "C6") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+      (reference "C6") (unit 1) (value "100µF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
     (path "/8b7d305c-caee-4338-94fc-4790d784af7f/7f0debda-8e70-4f6a-ab19-a22319396f56"
-      (reference "C7") (unit 1) (value "1000µF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm")
+      (reference "C7") (unit 1) (value "1000µF") (footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-000062073139"
       (reference "D1") (unit 1) (value "1N4001") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
